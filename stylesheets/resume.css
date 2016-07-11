@@ -1,0 +1,131 @@
+/****************************
+RESUME STYLES: Copy and paste these into your style.css page; Adjust the styles to fit your own typography and colors
+*****************************/
+
+/* RESUME ID IS FOR THE OVERALL BOX */
+
+#resume
+{
+	border: 1px #000 solid;
+	margin: auto;
+	padding: 30px;
+	width: 600px;
+}
+
+/* TOPINFO ID SELECTOR FOR THE PERSONAL INFORMATION AT THE TOP */
+
+#topinfo
+{
+text-align:center;
+}
+
+#topinfo p
+{
+margin:0;
+}
+
+
+/* TITLE CLASS SELECTOR IS FOR THE LEFT-HAND COLUMN OF THE RESUME */
+
+.title
+{
+	width: 140px;
+	float: left;
+	padding: 20px 0 0 0;
+	margin: 20px 0 0 0;
+	border-top: 1px #000 solid;
+}
+
+/* INFO CLASS SELECTOR IS FOR THE RIGHT-HAND COLUMN OF THE RESUME */
+
+.info
+{
+	width: 400px;
+	float: left;
+	padding: 20px 0 0 0;
+	margin: 20px 0 0 0;
+	border-top: 1px #000 solid;
+}
+
+/* STYLE FOR BOTTOM INFORMATION */
+
+#bottom
+{
+text-align:center;
+margin-top:20px;
+}
+
+#bottom p
+{
+	margin: 0;
+}
+
+/* STYLES FOR LINKS  BEGIN HERE */
+
+#resume a:link
+{
+	color: #600;
+	text-decoration: none;
+}
+
+#resume a:visited
+{
+	color: #600;
+	text-decoration: none;
+}
+
+#resume a:hover
+{
+	color: #060;
+	text-decoration: underline;
+	background-color: #CCC;
+}
+
+/* STYLES FOR TEXT BEGIN HERE */
+
+#resume h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+#resume h1
+{
+	font-size: 14pt;
+	line-height: 20pt;
+	margin:10px 0 0 0;
+}
+
+#resume h2
+{
+	font-size: 12pt;
+	line-height: 14pt;
+}
+
+#resume h3
+{
+	font-size: 10pt;
+	line-height: 14pt;
+}
+
+#resume p
+{
+	margin: 0 0 0 20px;
+	text-indent: 0;
+	font-size: 10pt;
+	line-height: 14pt;
+}
+
+#resume ul
+{
+	font-size: 10pt;
+	line-height: 14pt;
+	list-style-type: square;
+	list-style-position: outside;
+	margin-top: 0;
+	margin-bottom:0;
+}
+
+
+/* CLEAR CLASS RESETS THE FLOAT; USE BETWEEN ROWS OF THE RESUME */
+
+.clear
+{
+clear:both;
+}
